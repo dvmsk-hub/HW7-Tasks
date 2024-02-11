@@ -48,6 +48,7 @@ int CountNumberSpacesInFile(string filename)
     return text.Count(x => x == ' ');
 }
 
+// функция чтения файлов в папке и подсчета кол-ва пробелов 
 void CountNumberSpacesInFileInDirectory(string path)
 {
     var listFilesFromDirectory = Directory.GetFiles(path);
